@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"net"
 
-	"grpcmodel/config"
-	"grpcmodel/constants"
-	"grpcmodel/controller"
-	c "grpcmodel/customer"
-	"grpcmodel/services"
+	"github.com/SinekaV/grpc-config/config"
+	"github.com/SinekaV/grpc-connectors/controller"
+	"github.com/SinekaV/grpc-constants/constants"
+	"github.com/SinekaV/grpc-dal/services"
+	c "github.com/SinekaV/grpc-proto/customer"
 
 	"go.mongodb.org/mongo-driver/mongo"
 	"google.golang.org/grpc"

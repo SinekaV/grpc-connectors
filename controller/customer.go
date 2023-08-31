@@ -2,10 +2,11 @@ package controller
 
 import (
 	"context"
-	"grpcmodel/interfaces"
-	"grpcmodel/models"
 
-	c "grpcmodel/customer"
+	"github.com/SinekaV/grpc-dal/interfaces"
+	"github.com/SinekaV/grpc-dal/models"
+
+	c "github.com/SinekaV/grpc-proto/customer"
 )
 type RPCServer struct{
 	c.UnimplementedCustomerServiceServer
